@@ -2,7 +2,7 @@
    Strategy: stale-while-revalidate for the page (instant repeat visits,
    fresh copy picked up in the background), cache-first for static assets.
    Bump CACHE_VERSION whenever index.html changes, so visitors get the update. */
-const CACHE_VERSION = 'wristly-v2';
+const CACHE_VERSION = 'wristly-v3';
 const CORE_ASSETS = [
   './',
   './index.html',
